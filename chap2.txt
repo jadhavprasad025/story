@@ -1,0 +1,5 @@
+Every Express application has a built-in app router.
+
+A router behaves like middleware itself, so you can use it as an argument to app.use() or as the argument to another router’s use() method.
+
+The top-level express object has a Router() method that creates a new router object.
